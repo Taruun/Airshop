@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^1.11.0",
+    "@auth0/nextjs-auth0": "^1.9.1",
+    "@stripe/react-stripe-js": "^1.10.0",
+    "@stripe/stripe-js": "^1.36.0",
+    "auth0": "^2.42.0",
+    "framer-motion": "^7.3.5",
+    "icons": "^1.0.0",
+    "next": "12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.4.0",
+    "react-stripe-checkout": "^2.6.3",
+    "stripe": "^10.10.0",
+    "stripe-checkout": "^1.0.9",
+    "styled-components": "^5.3.5",
+    "url": "^0.11.0",
+    "urql": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
+}
