@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import { createClient, Provider } from "urql";
+import { Provider, createClient } from "urql";
 import Nav from "../components/Nav";
 import { StateConext } from "../lib/context";
 import { UserProvider } from "@auth0/nextjs-auth0";
