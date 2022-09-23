@@ -6,12 +6,6 @@ import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
 import { useStateContext } from "../../lib/context";
 import Head from "next/head";
 import toast from "react-hot-toast";
-// import {
-//   DetailsStyle,
-//   ProductInfo,
-//   Quantity,
-//   Buy,
-// } from "../../styles/ProductDetails";
 import Image from "next/image";
 import { useEffect } from "react";
 
@@ -56,7 +50,7 @@ export default function ProductDetails() {
           <h3>${price}</h3>
           <p>{description}</p>
           <Quantity>
-            <span>Quantity</span>
+            <span>Quantity:</span>
             <button onClick={decreaseQty}>
               <AiFillMinusCircle />
             </button>
@@ -115,6 +109,7 @@ const Quantity = styled.div`
     border: none;
     display: flex;
     font-size: 1.5rem;
+    cursor: pointer;
   }
   p {
     width: 3rem;

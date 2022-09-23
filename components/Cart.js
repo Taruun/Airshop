@@ -155,6 +155,14 @@ const CartItems = styled(motion.div)`
 const Item = styled(motion.div)`
   display: flex;
   margin: 2rem 0;
+  display: flex;
+  align-items: center;
+
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  margin: 1.5rem 0rem;
 `;
 
 const Description = styled.div`
