@@ -5,9 +5,11 @@ import Cart from "./Cart";
 import User from "./User";
 import { useStateContext } from "../lib/context";
 const { AnimatePresence, motion } = require("framer-motion");
+import { useUser } from "@auth0/nextjs-auth0";
 
 export default function Nav() {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
+  const { user, error, isLoading } = useUser();
   return (
     <NavWrapper>
       <InnerNav>
