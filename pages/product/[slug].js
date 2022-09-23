@@ -79,6 +79,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   h3 {
     margin: 1rem 0;
+    display: space-between;
   }
   img {
     z-index: -1;
