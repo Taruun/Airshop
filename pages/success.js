@@ -3,6 +3,7 @@ import styled from "styled-components";
 const { motion } = require("framer-motion");
 import Image from "next/image";
 import sponge from "../public/spongebob.png";
+import Head from "next/head";
 const stripe = require("stripe")(
   `${process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY}`
 );
