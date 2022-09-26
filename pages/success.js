@@ -58,9 +58,9 @@ const Success = ({ order }) => {
 
           {order.line_items.data.map((item) => (
             <Item key={item.id}>
-              <p>Product: {item.description}</p>
-              <p>Qty: {item.quantity}</p>
-              <p>Price: {item.price.unit_amount / 100} $</p>
+              <p>Product : {item.description}</p>
+              <p>Quantity : {item.quantity}</p>
+              <p>Price : ${item.price.unit_amount / 100}</p>
             </Item>
           ))}
 
