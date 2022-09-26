@@ -43,7 +43,7 @@ const Success = ({ order }) => {
             <p>{order.shipping_details.address.country}</p>
           </Shipping>
           <Billing>
-            <h3>Received:</h3>
+            <h3>Invoice:</h3>
             <p>{order.customer_details.name}</p>
             <p>{order.customer_details.address.line1}</p>
             <p>{order.customer_details.address.line2}</p>
