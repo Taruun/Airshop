@@ -22,7 +22,7 @@ export const getServerSideProps = withPageAuthRequired({
 
 export default function Profil({ user, orders }) {
   const route = useRouter();
-  console.log(orders);
+
   return (
     user && (
       <>
@@ -54,8 +54,8 @@ export default function Profil({ user, orders }) {
                     <tr>
                       <th>Order Number</th>
                       <th>Total</th>
+
                       <th>Receipt</th>
-                      <th>Status</th>
                     </tr>
                   </thead>
 
@@ -70,7 +70,6 @@ export default function Profil({ user, orders }) {
                             <a target="_blank">Get</a>
                           </Link>
                         </td>
-                        <td>{order?.charges.data[0].status}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -78,7 +77,9 @@ export default function Profil({ user, orders }) {
               </TableWrapper>
             )}
 
-            {orders.length <= 0 && <Empty>You have no current orders. </Empty>}
+            {orders.length <= 0 && (
+              <Rien>Aucune commande n&apos;a été trouvée</Rien>
+            )}
 
             <Logout onClick={() => route.push("/api/auth/logout")}>
               Logout
@@ -170,7 +171,7 @@ const Table = styled.table`
   }
 `;
 
-const Empty = styled.p`
+const Rien = styled.p`
   margin: 2rem 0;
   font-style: italic;
 `;

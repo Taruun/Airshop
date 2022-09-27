@@ -14,14 +14,12 @@ export default function User() {
         }}
       >
         <FaUserCircle />
-        <h6>Profile</h6>
       </StyledUser>
     );
 
   return (
     <Profile onClick={() => route.push("./profile")}>
       <img src={user.picture} alt={user.name} />
-      <h6>{user.name}</h6>
     </Profile>
   );
 }
@@ -40,6 +38,5 @@ const Profile = styled.div`
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 1rem;
   }
 `;
