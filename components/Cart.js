@@ -159,8 +159,9 @@ const Item = styled(motion.div)`
   align-items: center;
 
   border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   overflow: hidden;
-  background: #f9f9f9;
+  background: white;
   padding: 1.5rem;
   margin: 1.5rem 0rem;
 `;
