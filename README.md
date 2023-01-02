@@ -39,7 +39,7 @@ Click on the Right Side of the Top Bar to After the Watch button. <img src="http
 - Clone this repo with url
 
 ```shell
-git clone https://github.com/Aakrut/kittos-nft-marketplace
+git clone https://github.com/Taruun/Airshop.git
 ```
 
 ##### Setup
@@ -47,7 +47,7 @@ git clone https://github.com/Aakrut/kittos-nft-marketplace
 > Install npm dependencies using npm install
 
 ```shell
-cd kittos-nft-marketplace && npm install
+cd Airshop && npm install
 ```
 
 > Set up environment Variables.
