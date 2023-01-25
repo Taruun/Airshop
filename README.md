@@ -77,4 +77,11 @@ yarn dev
 ```
 
 <!-- ### Screenshots -->
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%201.png" />
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%202.png" />
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%203.png" />
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%204.png" />
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%205.png" />
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%206.png" />
+ <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%207.png" />
 
