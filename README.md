@@ -76,7 +76,7 @@ npm run dev
 yarn dev
 ```
 
-<!-- ### Screenshots -->
+### SCREENSHOTS -
  ### Landing Page:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%201.png" />
  
