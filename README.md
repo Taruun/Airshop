@@ -77,23 +77,23 @@ yarn dev
 ```
 
 <!-- ### Screenshots -->
- ### Landing Page
+ ### Landing Page:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%201.png" />
  
- ### Product Details
+ ### Product Details:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%202.png" />
  
- ### Cart Items
+ ### Cart Items:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%203.png" />
 
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%204.png" />
  
- ### Stripe Payment Option
+ ### Stripe Payment Option:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%205.png" />
  
- ### Success Page
+ ### Success Page:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%206.png" />
  
- ### Order Details
+ ### Order Details:
  <img src="https://raw.githubusercontent.com/Taruun/imges/main/MacBook%20Air%20-%207.png" />
 
